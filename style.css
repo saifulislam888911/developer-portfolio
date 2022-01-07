@@ -8,8 +8,7 @@ h1{
 }
 
 section{
-    display:flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 
@@ -18,6 +17,10 @@ section{
 
 .orange-color{
     color: orange;
+}
+
+.flexible-container{
+    display: flex;
 }
 
 .half-width{
@@ -46,4 +49,10 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.last-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
